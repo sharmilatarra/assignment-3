@@ -1,0 +1,32 @@
+
+    table {
+      margin: 20px auto;
+      border-collapse: collapse;
+    }
+    td {
+      width: 60px;
+      height: 60px;
+      text-align: center;
+      font-size: 30px;
+      border: 2px solid black;
+      cursor: pointer;
+      position: relative;
+    }
+    .win {
+      background-color: lightgreen;
+      text-decoration: line-through;
+      color: red;
+    }
+    #result {
+      text-align: center;
+      font-size: 20px;
+      font-weight: bold;
+      margin-top: 10px;
+    }
+    #resetBtn {
+      display: block;
+      margin: 10px auto;
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+    }
